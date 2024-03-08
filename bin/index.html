@@ -1,0 +1,82 @@
+<!-- 
+    ESU2Assesment 
+    Create a quadratic formula calculator
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <title>Quadratic Formula Calculator</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  
+  <div id="titleBar">
+
+    <titleBar>
+
+      <header class="w3-container w3-blue">
+
+        <h1>Quadratic Formula Calculator</h1>
+
+      </header>
+
+    </titleBar>
+
+  </div>
+
+  <div id="bodyPage">
+
+    <bodyPage>
+
+      <p>
+
+        <label for="frmA">What is your "a" value?</label>
+
+        <input type="text" class="w3-input" id="frmA" name="frmA" placeholder='Enter your "a" value'>
+
+      </p>
+
+      <p>
+
+        <label for="frmB">What is your "b" value?</label>
+
+        <input type="text" class="w3-input" id="frmB" name="frmB" placeholder='Enter your "b" value'>
+
+      </p>
+
+      <p>
+
+        <label for="frmC">What is your "c" value?</label>
+
+        <input type="text" class="w3-input" id="frmC" name="frmC" placeholder='Enter your "c" value'>
+
+      </p>
+
+      <p>
+
+        <button onclick="calculate()" id="btnStart" class="w3-button w3-blue">Calculate x Values</button>
+        
+      </p>
+
+  </div>
+
+  <div id = "output"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
